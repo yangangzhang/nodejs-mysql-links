@@ -16,7 +16,7 @@
 	|   |-- public          // 项目静态资源目录 css 背景图片等
     |   |-- routes          // 路由文件
     |   |-- views           // 页面文件
-    |   |   |-- index.hbs     // 项目入口页面
+    |   |  |-- index.hbs    // 项目入口页面
     |   |-- database.js     // 数据库连接
     |   |-- index.js        // npm run dev的时候，启动的文件
     |   |-- key.js          // 数据库配置文件
