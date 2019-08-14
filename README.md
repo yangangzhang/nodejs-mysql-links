@@ -3,12 +3,12 @@
 
 
 ## File Structure
+
 ```
     |-- database            // 数据库
     |   |-- db.sql          // 创建数据库的脚本（.sql文件），可以拷贝，然后在navicat中执行，从而创建数据库结构
     |-- docs                // readme.md中图片文件
     |-- src                 // 源码目录
-    
     |   |  |-- auth.js      // 基于认证判断是否登录，index页面时候，点击Profile的时候判断
     |   |  |-- handlebar.js // timego.js，因为启动的时候报错了，因此我在作者基础上做了修改
     |   |  |-- helper.js    // 基于bcryptjs，密码加密和解密
@@ -16,7 +16,7 @@
 	|   |-- public          // 项目静态资源目录 css 背景图片等
     |   |-- routes          // 路由文件
     |   |-- views           // 页面文件
-    |   |   | index.hbs     // 项目入口页面
+    |   |   |-- index.hbs     // 项目入口页面
     |   |-- database.js     // 数据库连接
     |   |-- index.js        // npm run dev的时候，启动的文件
     |   |-- key.js          // 数据库配置文件
